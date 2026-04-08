@@ -13,3 +13,6 @@ dependencies = [
     "fastapi",
     "uvicorn"
 ]
+
+[project.scripts]
+server = "server.app:app"
