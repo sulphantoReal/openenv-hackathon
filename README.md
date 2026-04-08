@@ -1,3 +1,11 @@
+---
+title: Support Triage OpenEnv
+emoji: 🚀
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+---
 \# Support Triage OpenEnv
 
 \*\*A Real-World Customer Support Environment\*\*
