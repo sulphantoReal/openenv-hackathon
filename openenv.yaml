@@ -1,0 +1,4 @@
+name: support-triage-env
+version: "1.0.0"
+description: "A real-world customer support email triage and routing environment."
+entrypoint: "env:SupportEnv"
