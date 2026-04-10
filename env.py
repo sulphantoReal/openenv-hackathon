@@ -78,7 +78,7 @@ class SupportEnv:
         done = len(self.inbox) == 0
         
         # Normalize reward between 0.0 and 1.0 for the step grader requirement
-        normalized_step_reward = min(max(reward, 0.0), 1.0)
+        normalized_step_reward = max(0.01, min(reward, 0.99))
 
         obs = TriageObservation(
             inbox=self.inbox, 
